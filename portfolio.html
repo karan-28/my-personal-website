@@ -1,0 +1,163 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+        background-color: #f8f8f8;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: 'Poppins';
+        color: #707070;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 35px;
+      }
+      .column {
+        width: 400px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 2px solid #707070;
+        background-color: white;
+      }
+      h3 {
+        border-bottom: 1px solid #707070;
+        padding-bottom: 5px;
+      }
+      #heading {
+        margin-bottom: 0;
+      }
+      #sub-heading {
+        padding-bottom: 10px;
+      }
+      header {
+        text-align: right;
+        background-color: #ededed;
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+      .menu-item {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #707070;
+      }
+      #home {
+        background-color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      .icon {
+        width: 25px;
+        height: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      footer {
+        text-align: right;
+      }
+      @media screen and (max-width: 650px) {
+        .menu-item {
+          display: block;
+          text-align: center;
+          padding-top: 8px;
+          padding-bottom: 8px;
+        }
+        #home {
+          background-color: white;
+          padding-top: 0;
+          padding-bottom: 0;
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+        header {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          background-color: #f8f8f8;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="menu-item" href="index.html">Home</a>
+      <a class="menu-item" id="home" href="portfolio.html">Portfolio</a>
+      <a class="menu-item" href="gallery.html">Gallery</a>
+    </header>
+    <h2 id="heading">Portfolio</h2>
+    <p id="sub-heading">Showcasing some of my teaching curriculums.</p>
+    <hr />
+    <div class="row">
+      <div class="column">
+        <h3>App Development</h3>
+        <p>
+          This course introduces students to programming technologies, design and development related to mobile
+          applications. Topics include accessing device capabilities, industry standards, operating systems, and
+          programming for mobile applications using an OS Software Development Kit (SDK). You will also learn how to
+          create your APP's layout, display data, create event listeners, make Internet requests, and much more.
+        </p>
+      </div>
+
+      <div class="column">
+        <h3>Financial Literacy</h3>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+          make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+
+      <div class="column">
+        <h3>Data Structures and Algorithms</h3>
+        <p>
+          The course covers basic algorithmic techniques and ideas for computational problems arising frequently in
+          practical applications: sorting and searching, divide and conquer, greedy algorithms, dynamic programming.
+          Students will learn a lot of theory: how to sort data and how it helps for searching; how to break a large
+          problem into pieces and solve them recursively; when it makes sense to proceed greedily; how dynamic
+          programming is used in genomic studies. Students will practice solving computational problems, designing new
+          algorithms, and implementing solutions efficiently
+        </p>
+      </div>
+
+      <div class="column">
+        <h3>Javascript</h3>
+        <p>
+          The JavaScript course focuses on the fundamental concepts of the JavaScript language. This course will empower
+          you with the skills to design client-side, platform-independent solutions that greatly increase the value of
+          your Web site by providing interactivity and interest. You will learn how to use JavaScript to communicate
+          with users, modify the Document Object Model (DOM), control program flow, validate forms, animate images,
+          create cookies, change HTML on the fly, and communicate with databases.
+        </p>
+      </div>
+      <div class="column">
+        <h3>Personal Development</h3>
+        <p>
+          This course covers various dimensions and importance of effective personality. It helps understand personality
+          traits and formation and vital contribution in the world of business. Also the course makes the students aware
+          about the various dynamics of personality development.The course aims to cause a basic awareness about the
+          significance of soft skills in professional and inter-personal communications and facilitate an all-round
+          development of personality. Hard or technical skills help securing a basic position in one's life and career.
+        </p>
+      </div>
+      <div class="column">
+        <h3>Website Development</h3>
+        <p>
+          This course introduces basic Web page development techniques. Topics include HTML, scripting languages, and
+          commercial software packages used in the development of Web pages. At the conclusion of this course, students
+          will be able to use specified markup languages to develop basic Web pages.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <a href="https://www.facebook.com"><img class="icon" src="facebook.png" /></a>
+      <a href="https://www.instagram.com"><img class="icon" src="instagram.png" /></a>
+      <a href="https://www.twitter.com"><img class="icon" src="twitter.png" /></a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+body {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  color: #707070;
+  background-color: #f8f8f8;
+  font-family: 'Poppins';
+}
+.menu-item {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #707070;
+}
+
+#myPicture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px -9px #000;
+}
+#parent {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+#child1 {
+  flex: 1;
+  text-align: center;
+}
+
+#child2 {
+  flex: 1.5;
+}
+header {
+  text-align: right;
+  background-color: #ededed;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.info {
+  color: #d53333;
+}
+#ques1 {
+  padding-top: 20px;
+}
+#home {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+#bio {
+  margin-top: 0;
+}
+#name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Segoe Print';
+  color: #534f4f;
+}
+h2 {
+  font-weight: 100;
+}
+
+#last_name,
+#first_name {
+  color: #534f4f;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+footer {
+  text-align: right;
+}
+
+@media screen and (max-width: 650px) {
+  #child2 {
+    text-align: center;
+  }
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #parent {
+    padding-top: 10px;
+  }
+  .menu-item {
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  #home {
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+  }
+}

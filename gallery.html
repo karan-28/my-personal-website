@@ -1,0 +1,115 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      body {
+        background-color: #f8f8f8;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: 'Poppins';
+        color: #707070;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 35px;
+      }
+
+      h3 {
+        border-bottom: 1px solid #707070;
+        padding-bottom: 5px;
+      }
+      #heading {
+        margin-bottom: 0;
+      }
+      #sub-heading {
+        padding-bottom: 10px;
+      }
+      header {
+        text-align: right;
+        background-color: #ededed;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-right: 10px;
+      }
+      .menu-item {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #707070;
+      }
+      #home {
+        background-color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      .icon {
+        width: 25px;
+        height: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      footer {
+        text-align: right;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 650px) {
+        .menu-item {
+          display: block;
+          text-align: center;
+          padding-top: 8px;
+          padding-bottom: 8px;
+        }
+        #home {
+          background-color: white;
+          padding-top: 0;
+          padding-bottom: 0;
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+        header {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          background-color: #f8f8f8;
+          margin-bottom: 10px;
+          text-align: center;
+        }
+      }
+      .image {
+        width: 300px;
+        height: 300px;
+        border: 2px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="menu-item" href="index.html">Home</a>
+      <a class="menu-item" href="portfolio.html">Portfolio</a>
+      <a class="menu-item" id="home" href="gallery.html">Gallery</a>
+    </header>
+    <h2 id="heading">Gallery</h2>
+    <p id="sub-heading">Showcasing some of my projects</p>
+    <hr />
+    <div class="row">
+      <img class="image" src="img.jpeg" />
+      <img class="image" src="img-20.jpeg" />
+      <img class="image" src="img-21.jpeg" />
+      <img class="image" src="img-22.jpeg" />
+      <img class="image" src="img-23.jpeg" />
+      <img class="image" src="img-24.jpeg" />
+      <img class="image" src="img-25.jpeg" />
+      <img class="image" src="img-26.jpeg" />
+
+      <img />
+    </div>
+    <footer>
+      <a href="https://www.facebook.com"><img class="icon" src="facebook.png" /></a>
+      <a href="https://www.instagram.com"><img class="icon" src="instagram.png" /></a>
+      <a href="https://www.twitter.com"><img class="icon" src="twitter.png" /></a>
+    </footer>
+  </body>
+</html>
